@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="samuraimod"
+version="1.0.0"
+displayName="Samurai Gear Mod"
+description='''
+Thêm kiếm Katana và bộ giáp Samurai vào Minecraft.
+Adds a Katana sword and a full Samurai armor set to Minecraft.
+'''
+authors="You"
+
+[[dependencies.samuraimod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.samuraimod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
